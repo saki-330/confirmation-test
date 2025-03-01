@@ -19,15 +19,19 @@
                 <div class="form__input--text">
                     <div class="form__group--lastname">
                         <div class="form__input--name-lastname">
-                            <input type="text" name="lastname" placeholder="例: 山田">
+                            <input type="text" name="lastname" 
+                            class="input-lastname" 
+                            placeholder="例: 山田">
                         </div>
                         <div class="form__error">
                             <!--バリデーション機能を実装したら記述-->
                         </div>
                     </div>
                     <div class="form__group--firstname">
-                    <div class="form__input--name-firstname">
-                            <input type="text" name="firstname" placeholder="例: 太郎">
+                        <div class="form__input--name-firstname">
+                            <input type="text" name="firstname" 
+                            class="input-firstname" 
+                            placeholder="例: 太郎">
                         </div>
                         <div class="form__error">
                             <!--バリデーション機能を実装したら記述-->
