@@ -60,10 +60,73 @@
 .input-lastname, .input-firstname {
     border: 1px solid #988b5f;
     border-radius: 3px;
-    margin-left: 40px;
     padding: 0 20px;
     height: 48px;
     width: 100%;
     background: #d5d0bf;
     color: #c2bca7;
+}
+
+.form__group--gender {
+    width: 100%;
+}
+
+.form__input--gender {
+    text-align: left;
+}
+
+.input-gender {
+    color: #988b5f;
+    font-size: 18px;
+}
+
+.form-group__email, .form-group__tel, 
+.form-group__adress {
+    width: 100%;
+}
+
+.input-email, .input-tel, 
+.input-adress1, .input-adress2 {
+    border: 1px solid #988b5f;
+    border-radius: 3px;
+    padding: 0 20px;
+    height: 48px;
+    width: 100%;
+    background: #d5d0bf;
+    color: #c2bca7;
+}
+
+.form__input--select {
+    width: 60%;
+    border: 1px solid #988b5f;
+    border-radius: 3px;
+    padding: 0 20px;
+    height: 48px;
+    background: #d5d0bf;
+    color: #c2bca7;
+}
+
+.input-content {
+    border: 1px solid #988b5f;
+    border-radius: 3px;
+    padding: 0 20px;
+    height: 192px;
+    width: 100%;
+    background: #d5d0bf;
+    color: #c2bca7;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px 20px;
+    width: 100px;
+    height: 60px;
+    border: none;
+    background: #988b5f;
+    color: #fff;
+    cursor: none;
 }

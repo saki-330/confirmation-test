@@ -49,9 +49,9 @@
                 <div class="form__input--text">
                     <div class="form__group--gender">
                         <div class="form__input--gender">
-                            <input type="radio" name="gender" value="男性" checked>男性
-                            <input type="radio" name="gender" value="女性">女性
-                            <input type="radio" name="gender" value="その他">その他
+                            <input type="radio" name="gender" class="input-gender" value="男性" checked>男性
+                            <input type="radio" name="gender" class="input-gender"  value="女性">女性
+                            <input type="radio" name="gender" class="input-gender" value="その他">その他
                         </div>
                         <div class="form__error">
                             <!--バリデーション機能を実装したら記述-->
@@ -67,10 +67,12 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text">
-                    <input type="email" name="email" placeholder="例: test@example.com">
-                </div>
-                <div class="form__error">
-                    <!--バリデーション機能を実装したら記述-->
+                    <div class="form-group__email">
+                        <input type="email" name="email" class="input-email" placeholder="例: test@example.com">
+                    </div>
+                    <div class="form__error">
+                        <!--バリデーション機能を実装したら記述-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,10 +83,12 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text">
-                    <input type="tel" name="tel" placeholder="例: 080-1234-5678">
-                </div>
-                <div class="form__error">
-                    <!--バリデーション機能を実装したら記述-->
+                    <div class="form-group__tel">
+                        <input type="tel" class="input-tel" name="tel" placeholder="例: 080-1234-5678">
+                    </div>
+                    <div class="form__error">
+                        <!--バリデーション機能を実装したら記述-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -95,10 +99,12 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text">
-                    <input type="text" name="address1" placeholder="例: 東京都渋谷区千駄ヶ谷1-2-3">
-                </div>
-                <div class="form__error">
-                    <!--バリデーション機能を実装したら記述-->
+                    <div class="form-group__adress">
+                        <input type="text" name="address1" class="input-adress1" placeholder="例: 東京都渋谷区千駄ヶ谷1-2-3">
+                    </div>
+                    <div class="form__error">
+                        <!--バリデーション機能を実装したら記述-->
+                    </div>
                 </div>
             </div>
         </div>
@@ -108,7 +114,9 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text">
-                    <input type="text" name="address2" placeholder="例: 千駄ヶ谷マンション101">
+                    <div class="form-group__adress">
+                        <input type="text" name="address2" class="input-adress2" placeholder="例: 千駄ヶ谷マンション101">
+                    </div>
                 </div>
             </div>
         </div>
@@ -119,8 +127,8 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text">
-                    <select class="form__input-select">
-                        <option value="">選択してください</option>
+                    <select class="form__input--select">
+                        <option value="選択してください">選択してください</option>
                     </select>
                 </div>
                 <div class="form__error">
@@ -135,7 +143,7 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--textarea">
-                    <textarea name="content" placeholder="お問い合わせ内容をご記載ください">
+                    <textarea name="content" class="input-content" placeholder="お問い合わせ内容をご記載ください">
                 </div>
                 <div class="form__error">
                     <!--バリデーション機能を実装したら記述-->
