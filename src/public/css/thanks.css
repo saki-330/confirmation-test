@@ -1,0 +1,33 @@
+.thanks__page {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.thanks__background {
+    margin: 0 30px;
+    
+}
+
+.thanks__background-text {
+    font-size: xx-large;
+    color:#d5d0bf;
+}
+
+.thanks__content {
+    text-align: center;
+}
+
+.thanks__heading {
+    margin-bottom: 50px;
+    color: #988b5f;
+}
+
+.thanks__btn {
+    margin: 100px auto 0;
+    padding: 10px 0;
+    width: 200px;
+    color: #fff;
+    background: #988b5f;
+    text-align: center;
+    display: block;
+}
