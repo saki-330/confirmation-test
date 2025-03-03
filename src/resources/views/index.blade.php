@@ -9,7 +9,8 @@
     <div class="contact-form__heading">
         <h2>Contact</h2>
     </div>
-    <form class="form">
+    <form class="form" action="/confirm" method="post">
+        @csrf
         <div class="form__group">
             <div class="form__group-title">
                 <span class="form__label--item">お名前</span>
@@ -99,8 +100,8 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--text">
-                    <div class="form-group__adress">
-                        <input type="text" name="address1" class="input-adress1" placeholder="例: 東京都渋谷区千駄ヶ谷1-2-3">
+                    <div class="form-group__address">
+                        <input type="text" name="address1" class="input-address1" placeholder="例: 東京都渋谷区千駄ヶ谷1-2-3">
                     </div>
                     <div class="form__error">
                         <!--バリデーション機能を実装したら記述-->
@@ -115,7 +116,7 @@
             <div class="form__group-content">
                 <div class="form__input--text">
                     <div class="form-group__adress">
-                        <input type="text" name="address2" class="input-adress2" placeholder="例: 千駄ヶ谷マンション101">
+                        <input type="text" name="address2" class="input-address2" placeholder="例: 千駄ヶ谷マンション101">
                     </div>
                 </div>
             </div>
@@ -143,7 +144,7 @@
             </div>
             <div class="form__group-content">
                 <div class="form__input--textarea">
-                    <textarea name="content" class="input-content" placeholder="お問い合わせ内容をご記載ください">
+                    <textarea name="content" class="input-content" placeholder="お問い合わせ内容をご記載ください"></textarea>
                 </div>
                 <div class="form__error">
                     <!--バリデーション機能を実装したら記述-->

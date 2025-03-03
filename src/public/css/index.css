@@ -81,12 +81,12 @@
 }
 
 .form-group__email, .form-group__tel, 
-.form-group__adress {
+.form-group__address {
     width: 100%;
 }
 
 .input-email, .input-tel, 
-.input-adress1, .input-adress2 {
+.input-address1, .input-address2 {
     border: 1px solid #988b5f;
     border-radius: 3px;
     padding: 0 20px;
@@ -109,7 +109,7 @@
 .input-content {
     border: 1px solid #988b5f;
     border-radius: 3px;
-    padding: 0 20px;
+    padding: 10px 20px;
     height: 192px;
     width: 100%;
     background: #d5d0bf;
@@ -128,5 +128,5 @@
     border: none;
     background: #988b5f;
     color: #fff;
-    cursor: none;
+    cursor: pointer;
 }
