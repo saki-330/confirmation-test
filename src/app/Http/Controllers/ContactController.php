@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactRequest;
 use Illuminate\Http\Request;
+use App\Models\Contact;
 
 class ContactController extends Controller
 {
@@ -11,14 +13,17 @@ class ContactController extends Controller
         return view('index');
     }
 
-    public function confirm(Request $request)
+    public function confirm(ContactRequest $request)
     {
-        $contact = $request->only(['lastname', 'firstname', 'gender', 'email', 'tel', 'address1', 'address2',  'content']);
+        $contact = $request->only(['last_name', 'first_name', 'gender', 'email', 'tel', 'address', 'building',  'detail']);
         return view('confirm', compact('contact'));
     }
 
-    public function store(Request $request)
+    public function store(ContactRequest $request)
     {
-        $contact = $request->only(['lastname', 'firstname', 'gender', 'email', 'tel', 'address1', 'address2',  'content']);
+        $contact = $request->only(['last_name', 'first_name', 'gender', 'email', 'tel', 'address', 'building',  'detail']);
+        Contact::create($contact);
+        
+        return view('thanks');
     }
 }

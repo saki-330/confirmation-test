@@ -7,7 +7,7 @@
 .contact-form__heading {
     margin-bottom: 40px;
     text-align: center;
-    color: #988b5f;
+    color: #8a7c54;
 }
 
 .form {
@@ -27,11 +27,11 @@
     text-align: left;
 }
 
-.form__label-item {
-    color: #988b5f;
+.form__label--item {
+    color: #483d17;
 }
 
-.form__label-required {
+.form__label--required {
     color: #ff0000;
 }
 
@@ -52,19 +52,19 @@
     align-items: center;
 }
 
-.form__input--name-lastname, 
-.form__input--name-firstname {
-    width: 45%;
+.form__input--name-last_name, 
+.form__input--name-first_name {
+    width: 100%;
 }
 
-.input-lastname, .input-firstname {
-    border: 1px solid #988b5f;
+.input-last_name, .input-first_name {
+    border: 1px solid #746f61;
     border-radius: 3px;
     padding: 0 20px;
     height: 48px;
     width: 100%;
-    background: #d5d0bf;
-    color: #c2bca7;
+    background: #efece1;
+    color: #746f61;
 }
 
 .form__group--gender {
@@ -86,14 +86,14 @@
 }
 
 .input-email, .input-tel, 
-.input-address1, .input-address2 {
+.input-address, .input-building {
     border: 1px solid #988b5f;
     border-radius: 3px;
     padding: 0 20px;
     height: 48px;
     width: 100%;
-    background: #d5d0bf;
-    color: #c2bca7;
+    background: #efece1;
+    color: #746f61;
 }
 
 .form__input--select {
@@ -102,17 +102,17 @@
     border-radius: 3px;
     padding: 0 20px;
     height: 48px;
-    background: #d5d0bf;
+    background: #efece1;
     color: #c2bca7;
 }
 
-.input-content {
+.input-detail {
     border: 1px solid #988b5f;
     border-radius: 3px;
     padding: 10px 20px;
     height: 192px;
     width: 100%;
-    background: #d5d0bf;
+    background: #efece1;
     color: #c2bca7;
 }
 
