@@ -3,10 +3,14 @@
     padding: 15px auto;
     max-width: 1230px;
     border-bottom: solid 1px #ddd;
+
+}
+
+.header__utilities {
+    text-align: center;
 }
 
 .header__logo {
-    text-align: center;
     color:#988b5f;
     font-weight: bold;
     font-size: 28px;

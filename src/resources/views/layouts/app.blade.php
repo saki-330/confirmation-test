@@ -14,9 +14,9 @@
     <header class="header">
         <div class="header__inner">
             <div class="header__utilities">
-                <p>
+                <h2>
                     FashionabilyLate
-                </p>
+                </h2>
                 @yield('nav')
             </div>
         </div>

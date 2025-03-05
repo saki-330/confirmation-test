@@ -81,7 +81,7 @@
 }
 
 .form-group__email, .form-group__tel, 
-.form-group__address {
+.form-group__address .form-group__detail {
     width: 100%;
 }
 
@@ -106,12 +106,14 @@
     color: #c2bca7;
 }
 
-.input-detail {
+.form__input--textarea {
     border: 1px solid #988b5f;
     border-radius: 3px;
     padding: 10px 20px;
     height: 192px;
-    width: 100%;
+}
+
+.input-detail {
     background: #efece1;
     color: #c2bca7;
 }
